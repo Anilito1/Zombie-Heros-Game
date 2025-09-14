@@ -1,0 +1,60 @@
+# --- Unity cache/build (NE PAS versionner) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Aa]ssets/AssetStoreTools*/
+[Aa]ssets/StreamingAssets/aa/*/*.bundle
+[Aa]ssets/StreamingAssets/aa/*/*.hash
+
+# Addressables (binaires générés)
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/link.xml
+
+# --- IDE / projet ---
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Projets/solutions générés
+*.csproj
+*.unityproj
+*.sln
+*.sln.DotSettings
+*.mdb
+*.pdb
+
+# Crash/rapports
+sysinfo.txt
+
+# JetBrains Rider plugin importé par Unity
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Unity Recorder / captures locales (OPTION : ignore pour alléger)
+Recordings/
+*.mp4
+*.mov
+*.avi
+*.wav
+
+# Builds finaux
+*.apk
+*.aab
+*.ipa
+*.app
+*.exe
+*.zip
+
+# macOS / Windows broutilles
+.DS_Store
+Thumbs.db
